@@ -25,5 +25,5 @@ jobs:
     - name: Load Dependencies
       run: make vendor
       
-    - name: Build
-      run: make build
+    - name: Test
+      run: make test
