@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 zpxio (Jeff Sharpe)
+ * Copyright 2022 zpxio (Jeff Sharpe)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,14 +14,7 @@
  * limitations under the License.
  */
 
-package main
+package item
 
-import (
-	"github.com/apex/log"
-)
-
-func main() {
-	log.Infof("Starting up.")
-
-	log.Infof("Shutting down.")
+type FileItem struct {
 }
